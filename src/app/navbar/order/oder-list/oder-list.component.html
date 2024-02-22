@@ -1,0 +1,55 @@
+<br>
+
+
+user list size : {{userList.length}}
+
+<br><br><br><br>
+
+<table class="table table-striped table-bordered table-warning">
+
+<tr >
+
+<th>ID</th>
+<th>Customer ID</th>
+<th>Category</th>
+<th>Items</th>
+<th>Unit Price</th>
+<th>Quantity</th>
+<th>Total Price</th>
+<th>Comment</th>
+
+<th >Action</th>
+
+</tr >
+
+
+
+<tr *ngFor="let user of userList">
+  
+<td>{{user.id}} </td>
+<td>{{user.inputEmail4}} </td>
+<td>{{user.inputState}}</td>
+<td>{{user.inputPassword4}}</td>
+<td>{{user.inputAddress}}</td>
+<td>{{user.inputCity}}</td>
+<td>{{user.inputZip}}</td>
+<td>{{user.inputAddress2}}</td>
+
+
+
+<td>
+<a type = "button" [routerLink]="['/orderEdit/', user.id]"  class="btn btn-primary">Edit</a>
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<button type = "button"   (click)="delete(user.id)" class="btn btn-danger">Delete</button> 
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<button type = "button" [routerLink]="['/bill']" class="btn btn-danger">Bill</button> 
+
+
+</td>
+</tr>
+
+</table> 

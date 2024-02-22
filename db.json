@@ -1,0 +1,294 @@
+{
+  "auth": [
+    {
+      "id": 1
+    },
+    {
+      "inputEmail4": "xyz@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": true,
+      "inputState": "GAVE",
+      "id": 2,
+      "role": "admin"
+    },
+    {
+      "inputEmail4": "sharif.shariutullah@gmail.com",
+      "inputPassword4": "",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": "",
+      "inputState": "",
+      "id": 3
+    },
+    {
+      "inputEmail4": "abc@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "gridCheck": "",
+      "inputState": "",
+      "role": "employee",
+      "id": 4
+    },
+    {
+      "inputEmail4": "www@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "gridCheck": "",
+      "inputState": "",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "inputEmail4": "qqq@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "gridCheck": "",
+      "inputState": "",
+      "role": "employee",
+      "id": 6
+    },
+    {
+      "inputEmail4": "aaa@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "gridCheck": "",
+      "inputState": "",
+      "role": "employee",
+      "id": 7
+    },
+    {
+      "inputEmail4": "admin@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "gridCheck": "",
+      "inputState": "",
+      "role": "employee",
+      "id": 8
+    },
+    {
+      "inputEmail4": "sss@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": "",
+      "inputState": "GAVE",
+      "role": "employee",
+      "id": 9
+    }
+  ],
+  "employees": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "empList": [
+    {
+      "inputEmail4": "sharif.shariutullah@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": true,
+      "inputState": "JAVA",
+      "id": 3
+    },
+    {
+      "inputEmail4": "sharif.shariutullah@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": true,
+      "inputState": "JAVA",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "inputEmail4": "jamalkodu@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": "",
+      "inputState": "GAVE"
+    },
+    {
+      "inputEmail4": "sharif.shariutullah@gmail.com",
+      "inputPassword4": "adsf",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": "",
+      "inputState": "",
+      "id": 6
+    },
+    {
+      "inputEmail4": "sharif.shariutullah@gmail.com",
+      "inputPassword4": "123",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": "",
+      "inputState": "JAVA",
+      "id": 7
+    },
+    {
+      "id": 12,
+      "inputEmail4": "shifat@info",
+      "inputPassword4": "123",
+      "inputAddress": "126/1, Karimunnesa road",
+      "inputAddress2": "Dogair bazar, Demra",
+      "inputCity": "Dhaka South city",
+      "inputZip": "1361",
+      "gridCheck": "",
+      "inputState": ""
+    },
+    {
+      "inputEmail4": "",
+      "inputPassword4": "",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "gridCheck": "",
+      "inputState": "",
+      "id": 13
+    }
+  ],
+  "orderList": [
+    {
+      "inputEmail4": "",
+      "inputPassword4": "",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "inputState": "",
+      "id": 1
+    },
+    {
+      "inputEmail4": "+0123456789",
+      "inputPassword4": "+0123456789",
+      "inputAddress": "50",
+      "inputAddress2": "",
+      "inputCity": "50",
+      "inputZip": "50",
+      "inputState": "1",
+      "id": 2
+    },
+    {
+      "inputEmail4": "+0123456789",
+      "inputPassword4": "+0123456789",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "inputState": "1",
+      "id": 3
+    },
+    {
+      "inputEmail4": "+0123456789",
+      "inputPassword4": "+0123456789",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "inputState": "1",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "inputEmail4": "+0123456789",
+      "inputPassword4": "+0123456789",
+      "inputAddress": "50",
+      "inputAddress2": "asfasdf",
+      "inputCity": "50",
+      "inputZip": "100",
+      "inputState": "1"
+    },
+    {
+      "inputEmail4": "",
+      "inputPassword4": "+0123456789",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "50",
+      "inputZip": "50",
+      "inputState": "1",
+      "id": 7
+    },
+    {
+      "inputEmail4": "",
+      "inputPassword4": "",
+      "inputAddress": "50",
+      "inputAddress2": "",
+      "inputCity": "50",
+      "inputZip": "50",
+      "inputState": "1",
+      "id": 8
+    },
+    {
+      "inputEmail4": "+0123456789",
+      "inputPassword4": "",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "inputState": "1",
+      "id": 9
+    },
+    {
+      "inputEmail4": "",
+      "inputPassword4": "",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "inputState": "",
+      "id": 10
+    },
+    {
+      "inputEmail4": "",
+      "inputPassword4": "",
+      "inputAddress": "",
+      "inputAddress2": "",
+      "inputCity": "",
+      "inputZip": "",
+      "inputState": "",
+      "id": 11
+    }
+  ]
+}

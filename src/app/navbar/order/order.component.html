@@ -1,0 +1,95 @@
+
+<br>
+<h2 class="text-center">Order The Product</h2>
+<hr>
+<br><br><br><br>
+
+
+<form [formGroup]="userForm" (ngSubmit)="onSub()">
+
+    
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-4">
+
+    <div class="col">
+        <div data-mdb-input-init class="form-outline">
+          <label class="form-label" for="form6Example2"><b>Customer Id</b></label>
+          <input type="text" id="form6Example2" class="form-control"  formControlName="inputEmail4" placeholder="Mobile no: +8801567898976"/>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+    <div class="col">
+      <div data-mdb-input-init class="form-outline">
+
+        <label class="form-label" for="form6Example1"><b>Select the Category</b></label>
+
+        <select class="form-select" aria-label="Default select example"  formControlName="inputState">
+            <option selected>Category</option>
+            <option value="1">Dairy</option>
+            <option value="2">Rice</option>
+            <option value="3">Baby Food</option>
+            <option value="4">Cosmetics</option>
+            <option value="5">Vegetables</option>
+          </select>
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+    <div class="col">
+      <div data-mdb-input-init class="form-outline">
+        <label class="form-label" for="form6Example2"><b>Item Name</b></label>
+        <input type="text" id="form6Example2" class="form-control"  formControlName="inputPassword4"/>
+      </div>
+    </div>
+ 
+
+  
+  <!-- Text input -->
+  <div data-mdb-input-init class="form-outline mb-4 col-3" >
+    <label class="form-label" for="form6Example3"><b>Unit Price</b></label>
+    <input type="text" id="form6Example3" class="form-control"  formControlName="inputAddress"/>
+  </div>
+
+
+  <!-- Text input -->
+  <div data-mdb-input-init class="form-outline mb-4 col-3" >
+    <label class="form-label" for="form6Example3"><b>Quantity</b></label>
+    <input type="text" id="form6Example3" class="form-control"  formControlName="inputCity"/>
+  </div>
+
+
+
+    <!-- Text input -->
+    <div data-mdb-input-init class="form-outline mb-4 col-3" >
+        <label class="form-label" for="form6Example3"><b>Total Price</b></label>
+        <input type="text" id="form6Example3" class="form-control"   formControlName="inputZip"/>
+      </div>
+
+
+
+
+  <!-- Message input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <textarea class="form-control" id="form6Example7" rows="4"  formControlName="inputAddress2"></textarea>
+    <label class="form-label" for="form6Example7">Importanat Note</label>
+  </div>
+
+
+
+
+  <!-- Submit button -->
+  <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4 float-end"  >Place order</button>
+
+
+</form>
+

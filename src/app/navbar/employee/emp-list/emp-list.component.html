@@ -1,0 +1,51 @@
+<br>
+
+
+user list size : {{userList.length}}
+
+<br><br><br><br>
+
+<table class="table table-striped table-bordered table-secondary">
+
+<tr >
+
+<th>ID</th>
+<th>Email</th>
+<th>Password</th>
+<th>Address</th>
+<th>Address 2</th>
+<th>City</th>
+<th>Course</th>
+<th>Zip</th>
+<th>Check</th>
+<th >Action</th>
+
+</tr >
+
+
+
+<tr *ngFor="let user of userList">
+  
+<td>{{user.id}} </td>
+<td>{{user.inputEmail4}} </td>
+<td>{{user.inputPassword4}}</td>
+<td>{{user.inputAddress}}</td>
+<td>{{user.inputAddress2}}</td>
+<td>{{user.inputCity}}</td>
+<td>{{user.inputState}}</td>
+<td>{{user.inputZip}}</td>
+<td *ngIf="user.gridCheck"> Yes</td>
+<td *ngIf="!user.gridCheck"> No</td>
+
+<td>
+<a type = "button" [routerLink]="['/empEdit/', user.id]"  class="btn btn-primary">Edit</a>
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+&nbsp;&nbsp;
+<button type = "button" href="#"  (click)="delete(user.id)" class="btn btn-danger">Delete</button> 
+
+
+</td>
+</tr>
+
+</table> 

@@ -1,0 +1,68 @@
+<br><br><br>
+
+<main class="form-signin w-100 m-auto ">
+
+<form [formGroup]="loginForm" (submit)="login()">
+  
+  <h1 class="h3 mb-3 fw-normal">Please Log in</h1>
+
+
+  <div class="form-group form-floating">
+  
+    <label for="exampleInputEmail1">Email address</label>
+    <br><br>
+    <input
+      type="email"
+      formControlName="inputEmail4"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      placeholder="Enter email"
+    />
+    <small id="emailHelp" class="form-text text-muted"
+      >We'll never share your email with anyone else.</small
+    >
+  </div>
+
+  <br><br>
+
+  <div class="form-group form-floating">
+    <label for="exampleInputPassword1">Password</label>
+    <br><br>
+    <input
+      type="password"
+      class="form-control"
+      id="exampleInputPassword1"
+      placeholder="Password"
+      formControlName="inputPassword4"
+    />
+  </div>
+
+
+  <div class="form-group form-check text-start my-3">
+    <input
+      type="checkbox"
+      class="form-check-input"
+      id="exampleCheck1"
+      formControlName="Check12"
+    />
+    <label class="form-check-label" for="exampleCheck1"> Remember me</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
+
+
+  <br /><br />
+
+  <div class="container-fluid mt-5 mb-3 text-body-secondary" >
+    <h3>
+      Didn't Have an account?
+      <a class="nav-link" routerLink="/signup">
+        <h3 class="float-end"><b style="color: rgb(21, 21, 241);">Register!</b></h3>
+      </a>
+    </h3>
+  </div>
+</form>
+
+
+</main>
